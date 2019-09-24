@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Happy Birthday Mom!</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/style.css">
+
+    </head>
+
+    <body>
+        <!--This is the header container-->
+        <div class="container-fluid" id="myHeader">
+            <!--This is the menu-->
+            <div class="row one">
+                    <div class="col">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Welcome</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="birthday_plans.html">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">RSVP</a>
+                            </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>-->
+                </div>
+            
+            <!--This is Happy Birthday tittle section-->
+                
+                    <div class="col">
+                        <h1 class="text-center"><strong>Happy Birthday</strong></h1>
+                        <h2 class="text-center">Mom!</h2>
+                    </div>
+            </div>     
+        </div>
+
+    <script 
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+        
+    <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script>
+            window.onscroll = function() {myFunction()};
+
+             // Get the header
+            var header = document.getElementById("myHeader");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+                 } else {
+                        header.classList.remove("sticky");}
+            }
+        </script>
+
+        
+    <!--Main section, this is where all the body content will go-->
+    <main>
+        <br><br><br><br><br><br><br>
+        <div class="row two">
+                <div class="mx-auto" style="width: 400px; height: auto;">
+                        
+
+                    <h3 class="text-center">RSVP</h3>
+                        <hr>
+                        <br>
+                        <br>
+                        <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlInput1">Name</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First name & last name">
+                                </div>
+                                <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleFormControlTextarea1">Leave us a note!</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div>
+                                    <br>
+                                        <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-8">
+                                                </div>
+                                                <div class="col-auto">
+                                                <button type="submit" class="btn btn-primary text-right">Submit</button>
+                                                </div>
+                                              </div>
+                                    
+                                </div>
+                                
+                              </form>
+                </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+    </main>
+        
+   
+   <div class="container-fluid footer">
+        <div class="row three">
+                <div class="col">
+                    <!--Facebook link-->
+                    <img rel="" src="images/facebook.svg" alt="Facebook" style="width: 45px;">
+                    <!--Instagram link-->
+                    <img rel="" src="images/instagram.svg" alt="Instagram" style="width: 45px;">
+                    <!--Twitter Link-->
+                    <img rel="" src="images/twitter.svg" alt="Twitter" style="width: 45px;">
+                </div>
+
+
+                <div class="col">
+                    <blockquote class="blockquote text-center">
+                        <p class="mb-0 text-right" style="color: black;">Property of</p>
+                    
+                        <footer class="text-right" style="font-size: 16px"><strong>BXXDY BAGZ LLC</strong></footer>
+                    </blockquote>
+                        
+                </div>
+        </div>
+   </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!--
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+<></>
+-->

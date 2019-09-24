@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g>
+        <circle id="facebook-back" cx="64" cy="64" r="64" style="fill:rgb(243,153,214);"/>
+        <path id="facebook-facebook" d="M95.137,29L32.864,29C30.73,29 29,30.729 29,32.864L29,95.137C29,97.271 30.73,99 32.864,99L66.389,99L66.389,71.893L57.267,71.893L57.267,61.328L66.389,61.328L66.389,53.537C66.389,44.496 71.911,39.572 79.978,39.572C83.84,39.572 87.16,39.86 88.128,39.989L88.128,49.438L82.535,49.44C78.148,49.44 77.299,51.524 77.299,54.583L77.299,61.328L87.76,61.328L86.398,71.893L77.299,71.893L77.299,99L95.137,99C97.271,99 99,97.271 99,95.137L99,32.864C99,30.729 97.271,29 95.137,29Z" style="fill:rgb(254,248,239);fill-rule:nonzero;"/>
+    </g>
+</svg>

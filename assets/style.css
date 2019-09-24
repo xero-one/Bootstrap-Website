@@ -1,0 +1,168 @@
+* 
+{
+margin: 0px;
+padding: 0px;
+}
+
+/*------------------------------------------------------------*/
+
+html, body 
+    {
+        height: 100%;
+        background: #FEF8EF;
+    }
+
+p 
+    {
+        font-family: 'Crimson Text', serif;
+        font-size: 13px;
+        color: #8e676e;
+    }
+
+h1
+{
+    font-family: 'Oleo Script', cursive;
+    font-size: 40px;
+    color: #E7CB7D;
+    text-shadow:
+		-1px -1px 0 #FEF8EF,
+		1px -1px 0 #E7CB7D,
+		-1px 1px 0 #E7CB7D,
+		1px 1px 0 #E7CB7D;
+}
+
+h2
+{
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    color: #E7CB7D;
+    text-shadow:
+		-1px -1px 0 #FEF8EF,
+		1px -1px 0 #E7CB7D,
+		-1px 1px 0 #E7CB7D,
+		1px 1px 0 #E7CB7D;
+}
+
+h3
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+
+h4 
+    {
+    font-family: "Bookman", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    }
+
+label
+{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: grey;
+}
+
+hr
+{
+    border: 1px solid #E7CB7D;
+    border-radius: 5px;
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.btn-primary
+{
+    background: #E7CB7D;
+    border: 1px solid #F8D8C8;
+}
+
+.img
+{
+width: 200px;
+}
+
+body 
+    {
+        margin: 0;
+        padding: 0;
+        height: auto;
+     }
+
+.two
+     {z-index: 1;}
+
+/*-------------
+Rich Light Pink: #F8D8C8
+Gold: #E7CB7D
+Offwhite: #FEF8EF
+Coral: #EBAE8F
+LightGrey: #958F88
+Black
+-----------------------------------------------*/
+/*primary header css properties*/
+.container-fluid
+     {
+        position: fixed;
+        background: #E7CB;
+        width: 100%;
+        margin-top: 40px;
+        height: auto;
+        border-bottom-width: 10px;
+        border-bottom: solid #F8D8C8;
+        clear: both;
+        z-index:2
+     }
+    /*child header css properties*/
+        .col
+            {
+                float: left;
+                clear: left;
+                padding-top: 20px;
+            }
+        
+        .nav
+        {
+            padding-top: 20px;
+        }
+
+        a
+        {
+            color: #FEF8EF;
+        }
+/*------------------------------------------------------------*/
+ .mx-auto
+        {
+            background: #FEF8EF;
+            padding-top: 50px;
+        }
+        
+
+
+
+/*------------------------------------------------------------*/
+/*primary footer css properties*/
+.footer
+    {
+        position: fixed;
+        background: #E7CB7D;
+        width: 100%;
+        margin-top: 40px;
+        height: auto;
+        border-bottom-width: 10px;
+        border-bottom: solid #F8D8C8;
+        bottom: 0;
+    }
+
+    .social
+    {
+        float: left;
+        clear: left;
+        padding-left: 20px;
+    }
+
